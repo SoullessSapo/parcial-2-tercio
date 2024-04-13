@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping(value = "/greeting")
+@RequestMapping(value = "/greetings")
 public class GreetingController {
     private final ToDoService toDoService;
 
